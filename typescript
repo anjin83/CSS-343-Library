@@ -1,0 +1,191 @@
+Script started on Fri 08 Dec 2017 10:47:01 PM PST
+barkas2@uw1-320-03:~/library$ g++ -std=c++``[K[K11 *.cpp
+barkas2@uw1-320-03:~/library$ valgrind ./a.out
+==25842== Memcheck, a memory error detector
+==25842== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==25842== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==25842== Command: ./a.out
+==25842== 
+Fiction:
+AVAIL AUTHOR                TITLE                                   YEAR 
+5     Daheim Mary           Fowl Prey                               1991 
+5     Daheim Mary           The Alpine Advocate                     1992 
+5     Daheim Mary           The Alpine Betrayal                     1993 
+5     Forster E. M.         The Longest Journey                     1922 
+5     Higgins Colin         Harold and Maude                        1971 
+5     Kerouac Jack          On the Road                             1955 
+5     Kerouac Jack          The Dharma Bums                         1958 
+5     Lawrence D. H.        Lady Chatterley's Lover                 1928 
+5     Lawrence D. H.        Sons and Lovers                         1913 
+5     Lewis Sinclair        Babbitt                                 1922 
+5     Muller Marcia         Edwin of the Iron Shoes                 1977 
+5     Muller Marcia         Eye of the Storm                        1988 
+5     Pirsig Robert         Zen & the Art of Motorcycle Maint       1974 
+5     Tolkien J.R.R.        The Hobbit                              1937 
+5     Walker Alice          The Color Purple                        1982 
+5     Wright Richard        Native Son                              1940 
+
+Periodicals:
+AVAIL YEAR MO TITLE                                   
+1     2009 1  Vegetarian Times                        
+1     2009 2  Communications of the ACM               
+1     2009 2  Vegetarian Times                        
+1     2009 3  Communications of the ACM               
+1     2009 4  Communications of the ACM               
+1     2009 5  Communications of the ACM               
+1     2009 7  Communications of the ACM               
+1     2009 7  Sigart Bulletin                         
+1     2010 12 Vegetarian Times                        
+1     2010 1  Communications of the ACM               
+1     2010 1  Vegetarian Times                        
+1     2010 2  Communications of the ACM               
+1     2010 3  Communications of the ACM               
+1     2012 3  Communications of the ACM               
+
+Youth:
+AVAIL TITLE                                   AUTHOR                YEAR 
+5     As the Waltz was Ending                 Butterworth Emma Maca 1982 
+5     Danny Dunn & the Homework Machine       Williams Jay          1959 
+5     Horton hears a Who                      Seuss Dr.             1954 
+5     I Hate My Brother Harry                 Dragonwagon Crescent  1983 
+5     If you give a mouse a cookie            Numeroff Laura        1985 
+5     Martha the Movie Mouse                  Lobel Arnold          1966 
+5     Old Lars                                Magnus Erica          1984 
+5     Penelope Gets Wheels                    Peterson Esther Allen 1982 
+5     Robots and Intelligent Machines         Litterick Ian         1984 
+5     Smokey                                  Peet Bill             1962 
+5     The Secret Life of Mr. Weird            Allen Jeffrey         1982 
+5     Treehorn's Wish                         Heide Florence Parry  1984 
+5     Yertle the Turtle                       Seuss Dr.             1950 
+Fiction:
+AVAIL AUTHOR                TITLE                                   YEAR 
+5     Daheim Mary           Fowl Prey                               1991 
+4     Daheim Mary           The Alpine Advocate                     1992 
+4     Daheim Mary           The Alpine Betrayal                     1993 
+4     Forster E. M.         The Longest Journey                     1922 
+0     Higgins Colin         Harold and Maude                        1971 
+4     Kerouac Jack          On the Road                             1955 
+4     Kerouac Jack          The Dharma Bums                         1958 
+4     Lawrence D. H.        Lady Chatterley's Lover                 1928 
+5     Lawrence D. H.        Sons and Lovers                         1913 
+4     Lewis Sinclair        Babbitt                                 1922 
+4     Muller Marcia         Edwin of the Iron Shoes                 1977 
+4     Muller Marcia         Eye of the Storm                        1988 
+4     Pirsig Robert         Zen & the Art of Motorcycle Maint       1974 
+4     Tolkien J.R.R.        The Hobbit                              1937 
+4     Walker Alice          The Color Purple                        1982 
+4     Wright Richard        Native Son                              1940 
+
+Periodicals:
+AVAIL YEAR MO TITLE                                   
+1     2009 1  Vegetarian Times                        
+1     2009 2  Communications of the ACM               
+1     2009 2  Vegetarian Times                        
+1     2009 3  Communications of the ACM               
+1     2009 4  Communications of the ACM               
+1     2009 5  Communications of the ACM               
+0     2009 7  Communications of the ACM               
+0     2009 7  Sigart Bulletin                         
+1     2010 12 Vegetarian Times                        
+0     2010 1  Communications of the ACM               
+1     2010 1  Vegetarian Times                        
+0     2010 2  Communications of the ACM               
+1     2010 3  Communications of the ACM               
+1     2012 3  Communications of the ACM               
+
+Youth:
+AVAIL TITLE                                   AUTHOR                YEAR 
+5     As the Waltz was Ending                 Butterworth Emma Maca 1982 
+4     Danny Dunn & the Homework Machine       Williams Jay          1959 
+5     Horton hears a Who                      Seuss Dr.             1954 
+5     I Hate My Brother Harry                 Dragonwagon Crescent  1983 
+5     If you give a mouse a cookie            Numeroff Laura        1985 
+5     Martha the Movie Mouse                  Lobel Arnold          1966 
+4     Old Lars                                Magnus Erica          1984 
+5     Penelope Gets Wheels                    Peterson Esther Allen 1982 
+5     Robots and Intelligent Machines         Litterick Ian         1984 
+4     Smokey                                  Peet Bill             1962 
+5     The Secret Life of Mr. Weird            Allen Jeffrey         1982 
+4     Treehorn's Wish                         Heide Florence Parry  1984 
+4     Yertle the Turtle                       Seuss Dr.             1950 
+*** Patron ID = 1000 Mouse Minnie
+Checkout  Muller Marcia         Edwin of the Iron Shoes                 1977 
+Checkout  Muller Marcia         Eye of the Storm                        1988 
+Checkout  Higgins Colin         Harold and Maude                        1971 
+
+*** Patron ID = 1111 Mouse Mickey
+Checkout  2010 1  Communications of the ACM               
+Checkout  Danny Dunn & the Homework Machine       Williams Jay          1959 
+Return    Danny Dunn & the Homework Machine       Williams Jay          1959 
+Checkout  2010 2  Communications of the ACM               
+Checkout  2009 7  Communications of the ACM               
+Checkout  Higgins Colin         Harold and Maude                        1971 
+
+*** Patron ID = 2000 Bear Bertha
+Checkout  Daheim Mary           The Alpine Advocate                     1992 
+Checkout  Pirsig Robert         Zen & the Art of Motorcycle Maint       1974 
+
+*** Patron ID = 2222 Rella Cindy
+Checkout  Danny Dunn & the Homework Machine       Williams Jay          1959 
+
+*** Patron ID = 3000 Lizard Larry
+Checkout  Danny Dunn & the Homework Machine       Williams Jay          1959 
+Return    Danny Dunn & the Homework Machine       Williams Jay          1959 
+Checkout  Higgins Colin         Harold and Maude                        1971 
+
+*** Patron ID = 3333 Witch Wicked
+
+*** Patron ID = 5000 Moose Bullwinkle
+Checkout  Danny Dunn & the Homework Machine       Williams Jay          1959 
+Return    Danny Dunn & the Homework Machine       Williams Jay          1959 
+Checkout  Treehorn's Wish                         Heide Florence Parry  1984 
+Checkout  Old Lars                                Magnus Erica          1984 
+Checkout  Smokey                                  Peet Bill             1962 
+Checkout  Yertle the Turtle                       Seuss Dr.             1950 
+Checkout  Higgins Colin         Harold and Maude                        1971 
+Checkout  Lewis Sinclair        Babbitt                                 1922 
+
+*** Patron ID = 6000 Frog Freddie
+Checkout  2009 7  Sigart Bulletin                         
+Return    2009 7  Sigart Bulletin                         
+Checkout  2009 7  Sigart Bulletin                         
+
+*** Patron ID = 7000 Squirrel Rocky
+Checkout  Tolkien J.R.R.        The Hobbit                              1937 
+
+*** Patron ID = 7777 Spider Sammy
+Checkout  Daheim Mary           The Alpine Betrayal                     1993 
+
+*** Patron ID = 8000 Wacky Wally
+Checkout  Kerouac Jack          On the Road                             1955 
+Return    Kerouac Jack          On the Road                             1955 
+Checkout  Kerouac Jack          The Dharma Bums                         1958 
+
+*** Patron ID = 8888 Pig Porky
+Checkout  Forster E. M.         The Longest Journey                     1922 
+Checkout  Walker Alice          The Color Purple                        1982 
+Checkout  Wright Richard        Native Son                              1940 
+Checkout  Lawrence D. H.        Lady Chatterley's Lover                 1928 
+Checkout  Higgins Colin         Harold and Maude                        1971 
+
+*** Patron ID = 9999 Duck Donald
+Checkout  Kerouac Jack          On the Road                             1955 
+
+==25842== 
+==25842== HEAP SUMMARY:
+==25842==     in use at exit: 173,880 bytes in 389 blocks
+==25842==   total heap usage: 2,704 allocs, 2,315 frees, 267,517 bytes allocated
+==25842== 
+==25842== LEAK SUMMARY:
+==25842==    definitely lost: 87,600 bytes in 101 blocks
+==25842==    indirectly lost: 13,576 bytes in 287 blocks
+==25842==      possibly lost: 0 bytes in 0 blocks
+==25842==    still reachable: 72,704 bytes in 1 blocks
+==25842==         suppressed: 0 bytes in 0 blocks
+==25842== Rerun with --leak-check=full to see details of leaked memory
+==25842== 
+==25842== For counts of detected and suppressed errors, rerun with: -v
+==25842== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+barkas2@uw1-320-03:~/library$ exit
+
+Script done on Fri 08 Dec 2017 10:48:03 PM PST
